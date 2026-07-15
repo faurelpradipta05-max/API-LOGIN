@@ -6,8 +6,7 @@ $host     = getenv('MYSQLHOST') ?: "mysql.railway.internal";
 $port     = getenv('MYSQLPORT') ?: "3306"; 
 $dbname   = getenv('MYSQLDATABASE') ?: "railway";                               
 $username = getenv('MYSQLUSER') ?: "root";                                  
-$password = getenv('MYSQLPASSWORD') ?: "ACxfpqEWuZuyAIcvqkPVNOFPZuLDxvhU"; 
-
+$password = getenv('MYSQLPASSWORD') ?: "ACxfpqEWuZuyAIcvqkPVNOFPZuLDxvhU"
 // Membuat koneksi
 try {
     $conn = new PDO(
